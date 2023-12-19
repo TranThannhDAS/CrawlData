@@ -1,0 +1,31 @@
+{
+  "name": "crawler-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "nodemon --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/n1ckyl0v3/crawler-web.git"
+  },
+  "author": "Pury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n1ckyl0v3/crawler-web/issues"
+  },
+  "homepage": "https://github.com/n1ckyl0v3/crawler-web#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.2",
+    "puppeteer": "^21.5.2",
+    "uuid": "^9.0.1"
+  }
+}
